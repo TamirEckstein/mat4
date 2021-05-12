@@ -9,7 +9,7 @@ import json, requests
 destionations= open('dests.txt','r',encoding='utf-8')
 File=destionations.readlines()
 
-api_key = 'AIzaSyABQP77w7L9h2hYjiYR4cpioBwZ90U--BA'
+api_key = ''
 url_disatance = 'https://maps.googleapis.com/maps/api/distancematrix/json?'
 url_geocode = 'https://maps.googleapis.com/maps/api/geocode/json?'
 
